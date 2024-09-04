@@ -7,7 +7,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors:{
+        'teste-100':'#840c97',
+        'roxo-900': '#09050a',
+        'roxo-800':'#311b37'
+        },
   	extend: {
+		
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
